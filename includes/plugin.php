@@ -26,7 +26,6 @@ class CAHNRSGutenbergPlugin {
 		require_once __DIR__ . '/blocks.php';
 		require_once __DIR__ . '/block-categories.php';
 		require_once __DIR__ . '/rest-api.php';
-		require_once __DIR__ . '/../classes/class-query-posts.php';
 		require_once __DIR__ . '/../classes/class-query-events.php';
 	}
 

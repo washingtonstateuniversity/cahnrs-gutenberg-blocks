@@ -67,7 +67,7 @@ const Edit = (props) => {
   
 
   const blockProps = useBlockProps({
-    className: "wsu-news-list",
+    className: "cahnrs-events-list",
     style: {},
   });
 

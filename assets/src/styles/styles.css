@@ -370,7 +370,7 @@ span.tribe-events-widget-events-list__event-date-tag-month {
 }
 
 #cahnrs-event-list .cahnrs-events-list .tribe-common-g-row.tribe-events-widget-events-list__event-row > div {
-    flex: 1 auto;
+    flex: 1;
 }
 
 #cahnrs-event-list .cahnrs-events-list .tribe-events-widget-events-list__event-date-tag.tribe-common-g-col {

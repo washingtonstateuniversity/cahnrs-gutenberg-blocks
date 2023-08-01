@@ -340,7 +340,7 @@ class CAHNRS_Events_Query_Posts {
 
 			switch ( $this->taxonomy ) {
 
-				case 'category':
+				case 'tribe_events_cat':
 					$query_args['categories'] = implode( ',', $this->terms );
 					break;
 				case 'post_tag':

@@ -5,7 +5,7 @@
  * Plugin Name:       CAHNRS Gutenberg Blocks
  * Plugin URI:        https://cahnrs.wsu.edu/
  * Description:       Custom functionality for CAHNRS websites
- * Version:           1.3
+ * Version:           1.3.1
  * Author:            CAHNRS Communications
  * Author URI:        https://cahnrs.wsu.edu/
  * Text Domain:       cahnrs-gutenberg-plugin
@@ -29,7 +29,7 @@ function wsuwp_plugin_gutenberg_plugin_check(){
 require_once( WP_PLUGIN_DIR . '/wsuwp-plugin-gutenberg/includes/plugin.php');
 
 //Define the version of this CAHNRS Gutenberg plugin
-define( 'CAHNRSGUTENBERGBLOCKVERSION', '1.3' );
+define( 'CAHNRSGUTENBERGBLOCKVERSION', '1.3.1' );
 
 // Gets CAHNRS Gutenberg plugin URL.
 function _get_cahnrs_gutenberg_plugin_url() {

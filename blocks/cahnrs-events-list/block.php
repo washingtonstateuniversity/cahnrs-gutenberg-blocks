@@ -24,9 +24,6 @@ class Block_WSUWP_CAHNRS_Events_List extends \WSUWP\Plugin\Gutenberg\Block {
 
 	public static function render( $attrs, $content = '' ) {
 			
-		
-		\WSUWP\Plugin\Gutenberg\Plugin::load_class( 'query-posts' );
-
 		$post_query = new CAHNRS_Events_Query_Posts( $attrs );
 
 		$card_attrs = array(

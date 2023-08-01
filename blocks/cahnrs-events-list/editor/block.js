@@ -34,7 +34,7 @@ const { registerBlockType } = wp.blocks;
            },
            taxonomy: {
                type: 'string',
-               default: 'category',
+               default: 'tribe_events_cat',
            },
            termsSelected: {
                type: 'array',
