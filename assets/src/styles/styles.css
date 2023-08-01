@@ -405,3 +405,66 @@ span.tribe-events-widget-events-list__event-date-tag-month {
 #cahnrs-event-list time.tribe-events-widget-events-list__event-date-tag-datetime span {
     color: #fff!important
 }
+
+/*==========================================
+
+Heading Styling 
+
+============================================*/
+/*Outlined Title*/
+@font-face {
+    font-family: 'wsu-outline';
+    src: url('https://cdn.web.wsu.edu/css/Montserrat-Bold-static.ttf') format("opentype")
+}
+
+ .wsu-heading--style-outline-overlap--gray {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #4d4d4d;
+	text-transform: uppercase;
+}
+
+.wsu-heading--style-outline-overlap--gray strong {
+    color: #4d4d4d;
+    -webkit-text-stroke-width: 0;
+    -webkit-text-stroke-color: transparent;
+}
+
+.wsu-heading--style-outline-overlap--crimson {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #A60F2D;
+	text-transform: uppercase;
+}
+.wsu-heading--style-outline-overlap--crimson strong {
+    color: #A60F2D;
+    -webkit-text-stroke-width: 0;
+    -webkit-text-stroke-color: transparent;
+}
+
+.wsu-heading--style-outline--crimson {
+	font-family: "wsu-outline";
+	color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #A60F2D;
+	text-transform: uppercase;
+}
+.wsu-heading--style-outline--crimson strong {
+    color: #A60F2D;
+    -webkit-text-stroke-width: 0;
+    -webkit-text-stroke-color: transparent;
+}
+
+.wsu-heading--style-outline--gray {
+	font-family: "wsu-outline";
+	color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #4d4d4d;
+	text-transform: uppercase;
+}
+
+.wsu-heading--style-outline--gray strong {
+    color: #4d4d4d;
+    -webkit-text-stroke-width: 0;
+    -webkit-text-stroke-color: transparent;
+}
